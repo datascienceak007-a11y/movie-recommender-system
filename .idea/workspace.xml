@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="303c8067-88eb-4760-9276-0d7094083fd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Movie-recommender-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie_dict.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="12" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.000000290618936" />
+      <entry key="S10" value="1.002534191209587" />
+      <entry key="S30" value="2.721523286902349" />
+      <entry key="S60" value="12.630001795079108" />
+      <entry key="M2" value="38.9066172596155" />
+      <entry key="M5" value="110.64268604712717" />
+      <entry key="M10" value="195.40002156926602" />
+      <entry key="M15" value="251.68513732165889" />
+      <entry key="M30" value="354.3927437069138" />
+      <entry key="H1" value="478.86302929884" />
+      <entry key="H2" value="658.8096374110357" />
+      <entry key="H4" value="884.2408932106246" />
+      <entry key="D1" value="1283.4460815286864" />
+      <entry key="W1" value="1388.1184415360606" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.2013995983513901E-296" />
+      <entry key="S2" value="1.04694018700771E-74" />
+      <entry key="S5" value="2.5584019608013014E-30" />
+      <entry key="S10" value="1.599928001211583E-15" />
+      <entry key="S30" value="1.250398838076287E-5" />
+      <entry key="S60" value="0.004639460600049978" />
+      <entry key="M2" value="0.12251435882943841" />
+      <entry key="M5" value="1.2431938611135935" />
+      <entry key="M10" value="3.4144889922472226" />
+      <entry key="M15" value="5.524842561126452" />
+      <entry key="M30" value="10.897533641135315" />
+      <entry key="H1" value="18.950578902757346" />
+      <entry key="H2" value="34.2138716248158" />
+      <entry key="H4" value="58.50982157899081" />
+      <entry key="D1" value="108.50873712805114" />
+      <entry key="W1" value="122.45731917870785" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.0435997974975E-6" />
+      <entry key="MS500" value="0.06363657498528878" />
+      <entry key="S2" value="0.5022578107517794" />
+      <entry key="S5" value="0.7592256024689201" />
+      <entry key="S10" value="0.8738571594118055" />
+      <entry key="S30" value="2.6721961113876533" />
+      <entry key="S60" value="12.594007733202307" />
+      <entry key="M2" value="38.98388007150001" />
+      <entry key="M5" value="111.83987710753458" />
+      <entry key="M10" value="198.77317159373112" />
+      <entry key="M15" value="257.1700489035838" />
+      <entry key="M30" value="365.25093590250555" />
+      <entry key="H1" value="497.77357621810125" />
+      <entry key="H2" value="692.9813996300483" />
+      <entry key="H4" value="942.7125374379632" />
+      <entry key="D1" value="1391.9427795339316" />
+      <entry key="W1" value="1510.5738179827067" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3F8DqjUhvnLyydfALQ5nBGW4zBu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Amit kumar/PycharmProjects/Movie-recommender-system",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Amit kumar\PycharmProjects\Movie-recommender-system" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="303c8067-88eb-4760-9276-0d7094083fd6" name="Changes" comment="" />
+      <created>1781447998185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781447998185</updated>
+      <workItem from="1781447999827" duration="3675000" />
+      <workItem from="1781612722963" duration="6185000" />
+      <workItem from="1781621196959" duration="232000" />
+      <workItem from="1781704198169" duration="4395000" />
+      <workItem from="1781786754470" duration="6732000" />
+      <workItem from="1781877523218" duration="4789000" />
+      <workItem from="1781959932887" duration="6274000" />
+      <workItem from="1782219197753" duration="5100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Movie_recommender_system$test.coverage" NAME="test Coverage Results" MODIFIED="1781705233107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Movie_recommender_system$app.coverage" NAME="app Coverage Results" MODIFIED="1781708499568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

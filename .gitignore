@@ -1,0 +1,5 @@
+similarity.pkl
+.venv/
+__pycache__/
+*.py
+.idea/
