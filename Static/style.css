@@ -148,3 +148,232 @@ body{
     background:#666;
 }
 
+
+
+/* Selected box */
+.select2-container--default .select2-selection--single{
+    height:65px !important;
+    background:#111827 !important;
+    border:2px solid #ff4d4d !important;
+    border-radius:15px !important;
+}
+
+.select2-container--default .select2-selection__rendered{
+    color:#ffffff !important;
+    font-size:20px !important;
+    font-weight:500;
+    line-height:62px !important;
+    padding-left:20px !important;
+}
+
+.select2-container--default .select2-selection__arrow{
+    height:65px !important;
+    width:50px !important;
+}
+
+.select2-container--default .select2-selection__arrow b{
+    border-color:#ffffff transparent transparent transparent !important;
+    border-width:7px 7px 0 7px !important;
+}
+
+
+/* Dropdown */
+.select2-dropdown{
+    background:#111827 !important;
+    border:2px solid #ff4d4d !important;
+    border-top:none !important;
+}
+
+/* Search input */
+.select2-search--dropdown .select2-search__field{
+    height:50px !important;
+    background:#161b22 !important;
+    color:#ffffff !important;
+    font-size:18px !important;
+    border:2px solid #ff4d4d !important;
+    border-radius:10px !important;
+    padding:10px 15px !important;
+    outline:none !important;
+
+}
+
+/* Movie list */
+.select2-results__option{
+    background:#111827 !important;
+    color:white !important;
+    font-size:18px;
+    padding:12px;
+}
+
+/* Hover */
+.select2-results__option--highlighted{
+    background:#e50914 !important;
+    color:white !important;
+}
+
+.select2-search__field{
+    height:50px !important;
+    font-size: 18px !important;
+    padding: 10px !important;
+}
+
+.select2-results__option{
+    max-height: 300px !important;
+}
+
+.select2-results__option--highlighted{
+    background:#ff4b2b !important;
+    color:white !important;
+}
+
+.select2-search__field::placeholder{
+    color:#bdbdbd !important;
+    font-size:18px;
+    font-style:italic;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--single{
+    height:65px !important;
+    background:#161b22 !important;
+    border:2px solid #ff4d4d !important;
+    border-radius:15px !important;
+    box-shadow:0 6px 20px rgba(0,0,0,.35);
+    transition: all .3s ease;
+}
+
+
+.ts-control{
+    height:60px !important;
+    border-radius:12px !important;
+    background:#111827 !important;
+    border:2px solid #ff4b2b !important;
+    color:white !important;
+    font-size:20px !important;
+    padding:12px 15px !important;
+}
+
+.ts-dropdown{
+    background:#161b22 !important;
+    border:2px solid #ff4d4d !important;
+    border-radius:12px !important;
+    margin-top:8px !important;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+.ts-dropdown .option{
+    color:#ffffff !important;
+    padding:14px 18px !important;
+    font-size:17px !important;
+    transition:all .2s ease;
+}
+
+.ts-dropdown .option:hover,
+.ts-dropdown .active{
+    background:#e50914 !important;
+    color:#ffffff !important;
+}
+
+/* Tom Select - Search Box */
+.ts-wrapper.single .ts-control{
+    background:#161b22 !important;
+    border:2px solid #ff4b2b !important;
+    border-radius:16px !important;
+    min-height:65px !important;
+    padding:14px 18px !important;
+    box-shadow:0 8px 20px rgba(0,0,0,.35);
+    transition:all .3s ease;
+}
+
+.ts-wrapper.single.focus .ts-control{
+    border-color:#ff6b4a !important;
+    box-shadow:0 0 20px rgba(255,75,43,.45);
+}
+
+.ts-control input{
+    color:#ffffff !important;
+    font-size:20px !important;
+}
+
+.ts-control input::placeholder{
+    color:#9ca3af !important;
+    font-size:18px !important;
+}
+
+/* Search Bar + Button Layout */
+.search-container{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.search-container .ts-wrapper{
+    flex:1;
+}
+
+.search-container .btn{
+    height:65px;
+    min-width:170px;
+    border-radius:16px;
+    font-size:18px;
+    font-weight:600;
+    transition:all .3s ease;
+}
+
+.search-container .btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 20px rgba(229,9,20,.35);
+}
+
+/* Fix dropdown */
+.ts-dropdown{
+    margin-top:0 !important;
+    border-top:none !important;
+    border-radius:0 0 16px 16px !important;
+}
+
+.ts-dropdown .option{
+    text-align:left !important;
+    padding:14px 18px !important;
+    font-size:17px !important;
+}
+
+.ts-dropdown .active{
+    background:#e50914 !important;
+    color:white !important;
+}
+
+.ts-dropdown-content{
+    max-height:320px;
+    overflow-y:auto;
+}
+
+.ts-control{
+    padding-left:45px !important;
+}
+
+/* Fix search icon spacing */
+.ts-control{
+    padding-left:55px !important;
+}
+
+.ts-wrapper::before{
+    left:20px !important;
+    font-size:18px !important;
+}
+
+/* Remove extra border under search box */
+.ts-dropdown{
+    border-top:0 !important;
+    margin-top:-2px !important;
+}
+
+.ts-wrapper.focus .ts-control{
+    border-bottom-left-radius:0 !important;
+    border-bottom-right-radius:0 !important;
+}
+
+.ts-wrapper.dropdown-active .ts-control{
+    border-bottom-left-radius:0 !important;
+    border-bottom-right-radius:0 !important;
+}
