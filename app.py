@@ -75,7 +75,9 @@ def fetch_poster(movie_id):
 
 
 def recommend(movie):
-    print("Selected Movie:", movie)
+    # print("Selected Movie:", movie)
+    # print("Exists:", movie in movies['title'].values)
+    # print(movies[movies['title'] == movie])
     movie_index = movies[movies['title'] == movie].index[0]
     print("Movie Index:",movie_index)
     distances = similarity[movie_index]
@@ -103,6 +105,7 @@ def home():
     movie_data = []
     if request.method == "POST":
         selected_movie = request.form.get("movie")
+        # print(selected_movie)
 
         recommendations,posters = recommend(selected_movie)
         print(posters[0])
@@ -116,4 +119,4 @@ def home():
     )
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=5000)
+    app.run(host='0.0.0.0',port=5000,debug=True)
